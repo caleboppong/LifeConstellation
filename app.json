@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "LifeConstellation", "slug": "lifeconstellation", "scheme": "lifeconstellation",
+    "version": "1.0.0", "orientation": "portrait", "userInterfaceStyle": "dark",
+    "backgroundColor": "#080D1D", "icon": "./assets/icon.png",
+    "ios": {"supportsTablet": true},
+    "android": {"adaptiveIcon": {"foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#080D1D"}},
+    "plugins": [["expo-splash-screen", {"image": "./assets/splash.png", "imageWidth": 200, "resizeMode": "contain", "backgroundColor": "#080D1D"}]]
+  }
+}

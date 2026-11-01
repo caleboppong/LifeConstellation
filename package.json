@@ -1,0 +1,25 @@
+{
+  "name": "lifeconstellation",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "check": "node scripts/check.js"
+  },
+  "dependencies": {
+    "expo": "~58.0.21",
+    "react": "19.3.0",
+    "react-native": "*",
+    "@react-native-async-storage/async-storage": "*",
+    "expo-haptics": "*",
+    "expo-status-bar": "*",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-svg": "*",
+    "expo-splash-screen": "*",
+    "expo-asset": "*"
+  },
+  "devDependencies": {}
+}
